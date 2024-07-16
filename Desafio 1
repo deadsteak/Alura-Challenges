@@ -1,0 +1,14 @@
+//Desafio: Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
+
+
+let chute = prompt("Hoje é referente a qual dia da semana?");
+let diaDeSemana = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta"];
+let finalDeSemana = ["Sábado", "Domingo"];
+
+if (diaDeSemana.includes(chute)) {
+    alert("Boa semana!");
+} else if (finalDeSemana.includes(chute)) {
+    alert("Bom fim de semana!");
+} else {
+    alert("Dia inválido!");
+}
