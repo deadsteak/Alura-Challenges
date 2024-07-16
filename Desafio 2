@@ -1,0 +1,13 @@
+//Desafio: Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
+
+let numeroDigitado = prompt("Digite um número positivo ou negativo.")
+
+if (numeroDigitado > 0) {
+    alert("Você digitou um número positivo.");
+}  else if (numeroDigitado < 0) { 
+    alert("Você digitou um número negativo.");
+}  else if (numeroDigitado == 0){ 
+    alert("Você digitou um número neutro."); 
+}  else { 
+    alert("você não digitou um número válido.")
+}
