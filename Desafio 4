@@ -4,4 +4,4 @@
 let saldo = 1968.50;
 
 let mensagem = `Seu saldo atual é de R$${saldo}`;
-    aconsole.log(mensagem);
+    console.log(mensagem);
